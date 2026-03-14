@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#1A1A2E">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CANON PROJECTOR"
+        android:textSize="22sp"
+        android:textColor="#E0E0E0"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IR REMOTE"
+        android:textSize="14sp"
+        android:textColor="#888888"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Giant Power Button -->
+    <Button
+        android:id="@+id/powerButton"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:text="⏻\nPOWER"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/power_button_bg"
+        android:layout_marginBottom="30dp"
+        android:elevation="8dp" />
+
+    <!-- Status Text -->
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checking IR blaster..."
+        android:textSize="16sp"
+        android:textColor="#4FC3F7"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Code Info -->
+    <TextView
+        android:id="@+id/codeInfoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12sp"
+        android:textColor="#777777"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:background="#11FFFFFF" />
+
+</LinearLayout>
