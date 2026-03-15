@@ -1,4 +1,4 @@
-apackage com.irremote.canonprojector;
+package com.irremote.canonprojector;
 
 import android.content.Context;
 import android.content.SharedPreferences;
